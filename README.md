@@ -1,2 +1,2 @@
 # JxFrankfurt.github.io
-Github Pages
+github Pages
