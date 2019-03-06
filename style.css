@@ -7,43 +7,13 @@ div#main-container{
     padding-right: 5em;
 }
 
-/*grabbed the following a code from stackoverflow*/
-.option:link    {
-    /* Applies to all unvisited links */
-    text-decoration:  none;
-    font-weight:      bold;
-    background-color: transparent;
-    color:            white;
-}
-.option:visited {
-    /* Applies to all visited links */
-    text-decoration:  none;
-    font-weight:      bold;
-    background-color: transparent;
-    color:            white;
-}
-.option:hover   {
-    /* Applies to links under the pointer */
-    text-decoration:  none;
-    font-weight:      bold;
-    background-color: transparent;
-    color:            white;
-}
-.option:active  {
-    /* Applies to activated links */
-    text-decoration:  none;
-    font-weight:      bold;
-    background-color: transparent;
-    color: white;
-} 
+/*grabbed the following code from stackoverflow*/
 
 h1{
-    color: white;
-    font-size: 10vw;
-    letter-spacing: -7px;
+    color: #ed1c24;
+    font-size: 5vw;
     font-weight: 800;
     margin: auto;
-    width: 30%;
     text-align: left;
     padding-top: .5em;
     position: fixed;
@@ -51,6 +21,11 @@ h1{
     line-height: 90%;
 }
 
+img#headshot{
+  position: fixed;
+  padding-top: 125px;
+  padding-left: 20px;
+}
 
 body{
     background-image: url(./img/background.png);
@@ -66,7 +41,7 @@ body{
 }
 
 .options{
-    color: white;
+    color: #ed1c24;
     font-size: 5em;
     font-weight: 300;
     margin: auto;
@@ -79,6 +54,10 @@ body{
 
 .option{
     transition: font-size .25s;
+    text-decoration:  none;
+    font-weight:      bold;
+    background-color: transparent;
+    color:            #ed1c24;
 }
 
 .option:hover{
@@ -139,7 +118,7 @@ body{
     -moz-box-shadow: 0 6px 0 #293F63;
     box-shadow: 0 6px 0 #293F63;
 }
-.icon#facebook-small{background:#3B5997 url("./img/facebook.jpg") no-repeat center center;}
+.icon#facebook-small{background:#3B5997 url("./img/facebook.png") no-repeat center center;}
 .icon#facebook-small:active{ -webkit-box-shadow: 0 2px 0 #293F63;
     -moz-box-shadow: 0 2px 0 #293F63;
     box-shadow: 0 2px 0 #293F63;
