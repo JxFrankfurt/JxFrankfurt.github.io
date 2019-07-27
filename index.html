@@ -4,6 +4,10 @@
 	<title>jackson frankfurt</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <script type="text/javascript" src="./simple.js"></script>
+	<!--<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>-->
 </head>
 <body>
 	<h1>Jackson Frankfurt</h1>
@@ -12,11 +16,13 @@
 		<ul class="options">
 			<li><a class="option" href="https://github.com/JxFrankfurt" target="_blank">github</a></li>
 			<li><a class="option" href="https://goo.gl/4q5sKf" target="_blank">resume</a></li>
-			<li><a class="option" href="#">demo</a></li> <!--target="_blank"-->
+			<li><a class="option" href="#" onclick="toggleDemo()">demo</a></li> <!--target="_blank"-->
 			<li><a class="option" href="#">papers</a></li> <!--target="_blank"-->
 			<li><a class="option" href="#" onclick="displayContactInfo()">contact</a></li> <!-- This could be a button element. It would require more css work.-->
 		</ul>
-	
+	<div id="Demo" hidden>
+		foo!
+	</div>
     <div id="menu-outer">
       <div class="table">
         <ul class="icons" id="horizontal-list">
